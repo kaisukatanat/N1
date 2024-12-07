@@ -8,3 +8,4 @@ print("tong chu so", tongchuso(n))
 df=pd.read_csv("Life expectancy.csv")
 fig=px.line(df,x="Year",y="life expectancy")
 fig.show()
+
